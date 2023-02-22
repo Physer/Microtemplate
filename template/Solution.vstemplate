@@ -1,0 +1,31 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+	<TemplateData>
+		<Name>Microtemplate</Name>
+		<Description>A template for creating a microservice with clean architecture</Description>
+		<Icon>Icon.ico</Icon>
+		<ProjectType>CSharp</ProjectType>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectCollection>
+			<SolutionFolder Name="Core">
+				<ProjectTemplateLink ProjectName="Application">
+					Application\MyTemplate.vstemplate
+				</ProjectTemplateLink>
+				<ProjectTemplateLink ProjectName="Domain">
+					Domain\MyTemplate.vstemplate
+				</ProjectTemplateLink>
+			</SolutionFolder>
+			<SolutionFolder Name="Infrastructure">
+				<ProjectTemplateLink ProjectName="Persistence">
+					Persistence\MyTemplate.vstemplate
+				</ProjectTemplateLink>
+			</SolutionFolder>
+			<SolutionFolder Name="Presentation">
+				<ProjectTemplateLink ProjectName="Web">
+					Web\MyTemplate.vstemplate
+				</ProjectTemplateLink>
+			</SolutionFolder>
+		</ProjectCollection>
+	</TemplateContent>
+</VSTemplate>
