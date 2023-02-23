@@ -26,6 +26,11 @@
 					Web\MyTemplate.vstemplate
 				</ProjectTemplateLink>
 			</SolutionFolder>
+			<SolutionFolder Name="Tests">
+				<ProjectTemplateLink ProjectName="Tests">
+					Tests\MyTemplate.vstemplate
+				</ProjectTemplateLink>
+			</SolutionFolder>
 		</ProjectCollection>
 	</TemplateContent>
 </VSTemplate>
