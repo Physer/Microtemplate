@@ -11,7 +11,7 @@ You can add this template to your Visual Studio templates and use it as a starti
 ## How to use
 
 1. Download the latest `Microtemplate.zip` file from the [Releases page](https://github.com/Physer/Microtemplate/releases)
-2. Place the ZIP file in your Visual Studio user data location: `%USERPROFILE%\Documents\Visual Studio 2022\Templates` 
+2. Place the ZIP file in your Visual Studio user data location: `%USERPROFILE%\Documents\Visual Studio 2022\Templates\ProjectTemplates` 
 3. If Visual Studio was open, restart it
 4. You can now create a new project using the `Microtemplate` project template
 
