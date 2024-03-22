@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Microservice - Infrastructure (Persistence)</Name>
-    <Description>A class library for all your persistence logic (as part of your Infrastructure) for your microservice</Description>
+    <Name>Persistence</Name>
+    <Description>A class library for all your persistence logic for your application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Microservice - Infrastructure (Persistence)</DefaultName>
+    <DefaultName>Persistence</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
