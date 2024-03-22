@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Microservice - Core (Application)</Name>
-    <Description>A class library for all your application logic (as part of your Core) for your microservice</Description>
+    <Name>IntegrationTests</Name>
+    <Description>An xUnit library for all your integration tests for your application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Microservice - Core (Application)</DefaultName>
+    <DefaultName>IntegrationTests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -16,6 +16,6 @@
     <PreviewImage>__PreviewImage.png</PreviewImage>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Application.csproj" File="Application.csproj" ReplaceParameters="true" />
+    <Project TargetFileName="IntegrationTests.csproj" File="IntegrationTests.csproj" ReplaceParameters="true" />
   </TemplateContent>
 </VSTemplate>

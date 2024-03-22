@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Microservice - Core (Domain)</Name>
-    <Description>A class library for all your domain logic (as part of your Core) for your microservice</Description>
+    <Name>Domain</Name>
+    <Description>A class library for all your domain and application logic for your application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Microservice - Core (Domain)</DefaultName>
+    <DefaultName>Domain</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>

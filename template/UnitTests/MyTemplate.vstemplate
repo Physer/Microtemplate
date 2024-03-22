@@ -1,13 +1,13 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>Microservice - Tests</Name>
-    <Description>An xUnit library for all your tests for your microservice</Description>
+    <Name>UnitTests</Name>
+    <Description>An xUnit library for your unit tests for your application</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1000</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Microservice - Tests</DefaultName>
+    <DefaultName>UnitTests</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -16,8 +16,6 @@
     <PreviewImage>__PreviewImage.png</PreviewImage>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Tests.csproj" File="Tests.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Usings.cs">Usings.cs</ProjectItem>
-    </Project>
+    <Project TargetFileName="UnitTests.csproj" File="UnitTests.csproj" ReplaceParameters="true" />
   </TemplateContent>
 </VSTemplate>
