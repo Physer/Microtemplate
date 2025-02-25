@@ -31,12 +31,11 @@ There are 5 projects created with this solution:
 
 ## Used libraries and frameworks
 
-* Entity Framework
-* XUnit
-* NSubstitute
-* FluentAssertions
-* AutoFixture
-* Microsoft.AspNetCore.Mvc.Testing
+- Entity Framework
+- XUnit
+- NSubstitute
+- Shouldly
+- Microsoft.AspNetCore.Mvc.Testing
 
 ## References
 
