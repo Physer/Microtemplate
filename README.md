@@ -1,6 +1,8 @@
 # Microtemplate
 
-A Visual Studio solution template for microservices in .NET/C#
+A Visual Studio solution template for microservices in .NET/C#.
+
+The template creates project targetting .NET 9.
 
 ## Introduction
 
